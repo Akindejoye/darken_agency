@@ -1,10 +1,12 @@
-
+import { BrowserRouter as Router } from 'react-router-dom';
+import Home from './pages/index';
 
 function App() {
+
   return (
-    <div className="App">
-      <h1>We don Show</h1>
-    </div>
+    <Router>
+      <Home />
+    </Router>
   );
 }
 
